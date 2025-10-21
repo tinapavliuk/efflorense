@@ -1,22 +1,23 @@
-// src/App.tsx
-
-import { useState } from 'react';
+import { Footer } from '@widgets/Footer'
+import { Header } from '@widgets/Header'
+import { Link, Outlet } from 'react-router-dom'
 
 export default function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <main style={{ padding: 16, fontFamily: 'system-ui, sans-serif' }}>
-      <h1>Efflorense</h1>
-      <p>Проєкт запущений. Цей компонент існує лише для демо.</p>
-
-      <button onClick={() => setCount((c) => c + 1)}>Лічильник: {count}</button>
-
-      {/* 
-        ⬇️ Можеш залишити цей коментар і показати викладачу, 
-        що хуки створені у src/shared/hooks та features/.../lib.
-        В App.tsx ми їх не імпортуємо — це ок.
-      */}
-    </main>
-  );
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <nav className="p-4 flex gap-3">
+        <Link to="/">Home</Link>
+        <Link to="/catalog">Catalog</Link>
+        <Link to="/mood">Mood</Link>
+        <Link to="/garden">Garden</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/auth">Auth</Link>
+      </nav>
+      <main className="flex-1 p-4">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  )
 }
