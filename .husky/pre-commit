@@ -1,0 +1,2 @@
+echo "🔎 Lint-staged..."
+npx lint-staged || exit 1
