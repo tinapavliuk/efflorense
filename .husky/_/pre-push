@@ -1,2 +1,5 @@
 #!/usr/bin/env sh
-. "$(dirname "$0")/h"
+set -e
+echo "Running tests before push..."
+npm test
+echo "Tests passed, proceeding with push."
