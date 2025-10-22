@@ -17,7 +17,7 @@ export default tseslint.config(
       ecmaVersion: 2024,
       sourceType: 'module',
       parserOptions: { ecmaFeatures: { jsx: true } },
-      globals: { ...globals.browser, ...globals.es2021 }
+      globals: { ...globals.browser, ...globals.es2021 },
     },
     plugins: {
       react,
@@ -25,7 +25,7 @@ export default tseslint.config(
       import: importPlugin,
       'jsx-a11y': jsxA11y,
       'react-refresh': reactRefresh,
-      'simple-import-sort': simpleImportSort
+      'simple-import-sort': simpleImportSort,
     },
     settings: { react: { version: 'detect' } },
     rules: {
@@ -37,7 +37,7 @@ export default tseslint.config(
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
       'import/order': 'off',
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
-    }
-  }
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    },
+  },
 )
