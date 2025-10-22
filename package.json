@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo 'No tests specified' && exit 0"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
