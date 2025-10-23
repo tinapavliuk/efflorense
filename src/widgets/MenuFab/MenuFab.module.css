@@ -1,0 +1,28 @@
+.btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 54px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid #684b39;
+  background: #fde4d1;
+  color: #684b39;
+  font-family: 'Princess Diana';
+  font-size: 22px;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
+}
+.btn:active {
+  transform: translateY(0);
+}

@@ -1,4 +1,4 @@
-import '@shared/styles/index.css'
+import './shared/styles/index.css'
 
 import { router } from '@app/router'
 import React from 'react'
