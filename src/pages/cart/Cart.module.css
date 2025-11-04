@@ -1,0 +1,282 @@
+.page {
+  min-height: 100vh;
+  background: #684b39;
+  padding: 120px 24px 60px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fde4d1;
+  background: #5a3f31;
+  border: 1px solid #fde4d1;
+  font-family: 'Princess Diana', serif;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.title,
+.sectionTitle {
+  color: #fde4d1;
+  font-family: 'Princess Diana', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.title {
+  font-size: 96px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 0 60px;
+}
+
+.sectionTitle {
+  font-size: 64px;
+  max-width: 1231px;
+  margin: 60px auto 40px;
+}
+
+.flowerItem {
+  width: 100%;
+  max-width: 1231px;
+  margin: 0 auto 60px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  background: #fef6f0;
+  border-radius: 8px;
+}
+
+.flowerImage {
+  width: 116px;
+  height: 116px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: lightgray;
+}
+
+.flowerName {
+  margin: 0;
+  color: #5a3f31;
+  font-family: 'Princess Diana', serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.priceBlock,
+.quantityBlock {
+  width: 208px;
+  height: 72px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.priceBlock {
+  margin-left: auto;
+  background: #906850;
+}
+
+.quantityBlock {
+  background: #684b39;
+}
+
+.priceText,
+.quantityText,
+.summaryText,
+.quantityDisplay,
+.priceDisplay,
+.totalPrice,
+.managerMessage {
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+}
+
+.priceText,
+.quantityText {
+  color: #fde4d1;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.packagingOptions {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1231px;
+  margin: 0 auto 60px;
+}
+
+.packagingCard {
+  width: 316px;
+  height: 395px;
+  border-radius: 12px;
+  background: #fef6f0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 14px 24px;
+  position: relative;
+}
+
+.packagingImage {
+  width: 100%;
+  height: 255px;
+  border-radius: 14px;
+  object-fit: cover;
+  background: lightgray;
+  margin-bottom: 14px;
+}
+
+.packagingName {
+  color: #684b39;
+  font-family: 'Princess Diana', serif;
+  font-size: 56px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+.radioSelected,
+.radio {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.summaryBlock {
+  width: 100%;
+  max-width: 1228px;
+  border-radius: 8px;
+  background: #fef6f0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  margin: 0 auto 40px;
+}
+
+.summaryRow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.summaryText {
+  flex: 1;
+  color: #5a3f31;
+  font-size: 36px;
+  font-weight: 350;
+}
+
+.quantityDisplay,
+.priceDisplay,
+.totalPrice {
+  width: 218px;
+  height: 72px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.quantityDisplay {
+  background: #906850;
+  color: #fde4d1;
+}
+
+.priceDisplay {
+  background: #684b39;
+  color: #fde4d1;
+}
+
+.totalRow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 2px solid #684b39;
+}
+
+.totalLabel {
+  flex: 1;
+  color: #684b39;
+  font-family: 'Princess Diana', serif;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.totalPrice {
+  background: #684b39;
+  color: #fde4d1;
+}
+
+.orderButton {
+  width: 321px;
+  height: 90px;
+  border-radius: 321px;
+  background: #fde4d1;
+  border: none;
+  cursor: pointer;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #684b39;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.orderButton:hover {
+  opacity: 0.9;
+}
+
+.managerMessage {
+  color: #fde4d1;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 64px;
+  }
+  .sectionTitle {
+    font-size: 48px;
+  }
+  .flowerItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .priceBlock,
+  .quantityBlock {
+    width: 100%;
+  }
+  .summaryBlock {
+    padding: 20px;
+  }
+  .summaryRow {
+    flex-wrap: wrap;
+  }
+}

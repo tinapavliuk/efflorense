@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  min-height: 100svh;
+  min-height: 100vh;
   padding: 32px 16px 48px;
   display: grid;
   justify-items: center;
@@ -17,7 +17,7 @@
   background-size: cover, cover;
 }
 
-.logo {
+.badge {
   position: absolute;
   left: 24px;
   top: 20px;
@@ -39,10 +39,11 @@
   margin: 24px 0 8px;
   color: #fde4d1;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Princess Diana';
+  font-family: 'Princess Diana', serif;
   font-size: 96px;
   font-weight: 400;
   line-height: 1;
+  text-align: center;
 }
 
 .form {
@@ -56,7 +57,7 @@
   display: grid;
   gap: 10px;
   color: #fde4d1;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -71,19 +72,20 @@
   border-radius: 999px;
   background: #fde4d1;
   color: #684b39;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 20px;
   font-weight: 400;
   box-shadow:
-    0 4px 4px rgba(0, 0, 0, 0.25) inset,
+    0 4px 4px rgba(0, 0, 0, 0.15) inset,
     0 2px 2px rgba(0, 0, 0, 0.08);
 }
 
+/* === основна кнопка, як у логіні === */
 .cta {
   position: relative;
-  margin: 8px auto 0;
-  width: 360px;
-  height: 120px;
+  margin: 20px auto 0;
+  width: 260px;
+  height: 78px;
   display: grid;
   place-items: center;
   text-decoration: none;
@@ -95,33 +97,33 @@
 .oval {
   position: absolute;
   inset: 0;
-  margin: auto;
-  width: 360px;
-  height: 72px;
-  border-radius: 360px;
-  background: #fde4d1;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  background: #906850; /* такий самий колір як у логіні */
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
 }
 
-.strokeA,
-.strokeB {
+/* замість двох диких обводок робимо одну легку, як у логіні */
+.strokeA {
   position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 360px;
-  height: 72px;
-  border-radius: 360px;
+  inset: -8px -12px -12px -8px;
+  border-radius: 999px;
   border: 1px solid #684b39;
-  background: transparent;
+  opacity: 0.35;
+  transform: rotate(-5deg);
   pointer-events: none;
+}
+
+/* лишимо, щоб не падало, але сховаємо */
+.strokeB {
+  display: none;
 }
 
 .ctaLabel {
   position: relative;
-  color: #684b39;
-  font-family: 'Kyiv*Type Sans';
-  font-size: 24px;
-  font-weight: 600;
+  color: #fde4d1;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
   line-height: 1;
 }
 
@@ -135,15 +137,16 @@
 
 .note {
   color: #fde4d1;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
 
+/* === маленька кнопка "Log in" — як у логіні === */
 .smallCta {
   position: relative;
-  width: 160px;
-  height: 64px;
+  width: 200px;
+  height: 60px;
   display: grid;
   place-items: center;
   text-decoration: none;
@@ -152,19 +155,17 @@
 .smallOval {
   position: absolute;
   inset: 0;
-  margin: auto;
-  width: 160px;
-  height: 48px;
-  border-radius: 160px;
-  background: #684b39;
-  border: 1px solid #4d3629;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  background: #906850;
+  opacity: 0.97;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .smallLabel {
   position: relative;
   color: #fde4d1;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
@@ -179,13 +180,13 @@
     font-size: 18px;
   }
   .cta {
-    width: 300px;
-    height: 108px;
+    width: 230px;
+    height: 72px;
   }
-  .oval,
-  .strokeA,
-  .strokeB {
-    width: 300px;
-    height: 66px;
+  .ctaLabel {
+    font-size: 20px;
+  }
+  .note {
+    font-size: 20px;
   }
 }

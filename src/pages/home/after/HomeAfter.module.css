@@ -1,36 +1,52 @@
-.hero {
+.page {
   position: relative;
-  min-height: 100svh;
+  min-height: 100vh;
   width: 100%;
   background: #fde4d1 url('/hero-lobby.webp') center/cover no-repeat;
 }
+
 .overlay {
   position: absolute;
   inset: 0;
-  background: color-mix(in oklab, #000 14%, transparent);
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.badge {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fde4d1;
+  background: #5a3f31;
+  border: 1px solid #fde4d1;
+  font-family: 'Princess Diana', serif;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 10;
 }
 
 .center {
   position: relative;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  justify-items: center;
   gap: 32px;
   padding: 72px 16px 36px;
 }
 
 .brandBox {
-  width: 859px;
-  height: 225px;
   display: grid;
   place-items: center;
-  flex: 0 0 auto;
 }
+
 .brand {
   margin: 0;
-  font-family: var(--font-brand);
-  font-size: 200px;
+  font-family: 'Princess Diana', serif;
+  font-size: clamp(96px, 16vw, 200px);
   font-weight: 400;
   line-height: 1;
   color: #684b39;
@@ -40,9 +56,9 @@
 
 .subtitle {
   margin: 0;
-  color: var(--light-brown);
+  color: #906850;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: var(--font-sans);
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 40px;
   font-weight: 350;
   line-height: 1;
@@ -52,61 +68,54 @@
 
 .actions {
   display: flex;
-  gap: 64px;
+  gap: 48px;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .cta {
   position: relative;
-  width: 278.69px;
-  height: 132px;
+  width: 278px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
 }
-.oval {
+
+.ctaOval {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 278.69px;
-  height: 89.9px;
-  transform: translate(-50%, -50%);
-  border-radius: 278.69px;
+  inset: 0;
+  margin: auto;
+  width: 278px;
+  height: 90px;
+  border-radius: 278px;
   background: #906850;
-  border: 1px solid #684b39;
   box-shadow: 0 12px 24px rgba(104, 75, 57, 0.28);
 }
-.label {
+
+.ctaLabel {
   position: relative;
-  z-index: 1;
-  display: flex;
-  width: 220px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
   color: #fde4d1;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 1;
   text-align: center;
-  text-transform: none;
 }
 
 .inlineNote {
   margin-top: 8px;
   color: #684b39;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 1;
 }
 
 .orShop {
-  margin-top: 6px;
   color: #684b39;
-  font-family: 'Kyiv*Type Sans';
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
@@ -116,45 +125,44 @@
   margin-top: 12px;
   display: flex;
   width: min(1120px, 92vw);
-  height: 60px;
-  padding: 10px 24px;
+  min-height: 60px;
+  padding: 14px 24px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 20px;
   background: rgba(144, 104, 80, 0.5);
   color: #fde4d1;
-  font-family: 'Kyiv*Type Sans';
-  font-size: 40px;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 32px;
   font-weight: 350;
   line-height: 1;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
-@media (max-width: 1300px) {
-  .creatorRow {
-    grid-template-columns: 1fr;
-    column-gap: 0;
-    row-gap: 24px;
+@media (max-width: 900px) {
+  .subtitle {
+    font-size: 28px;
   }
-  .creatorPhoto {
-    width: min(557px, 92vw);
-    height: auto;
-    aspect-ratio: 1/1;
+  .actions {
+    gap: 24px;
   }
-  .creatorCard {
-    width: min(677px, 92vw);
-    height: auto;
+  .cta {
+    width: 240px;
+    height: 110px;
   }
-  .creatorText {
-    width: min(531px, 86vw);
+  .location {
+    font-size: 22px;
   }
-  .creatorTitle {
-    width: min(674px, 92vw);
-    height: auto;
-    font-size: clamp(64px, 12vw, 150px);
+}
+
+@media (max-width: 600px) {
+  .menuChip {
+    top: 72px;
   }
-  .creatorName {
-    font-size: clamp(36px, 6vw, 80px);
+  .brand {
+    white-space: normal;
+    text-align: center;
   }
 }
