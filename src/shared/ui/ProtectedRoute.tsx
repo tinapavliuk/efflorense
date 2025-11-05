@@ -1,14 +1,14 @@
-import { Navigate, Outlet } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 
 type ProtectedRouteProps = {
   isAllowed: boolean
   redirectTo?: string
+  children: React.ReactNode
 }
 
-export function ProtectedRoute({ isAllowed, redirectTo = '/auth/login' }: ProtectedRouteProps) {
+export function ProtectedRoute({ isAllowed, redirectTo = '/auth/login', children }: ProtectedRouteProps) {
   if (!isAllowed) {
     return <Navigate to={redirectTo} replace />
   }
-
-  return <Outlet />
+  return children
 }

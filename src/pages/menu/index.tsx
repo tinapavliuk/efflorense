@@ -38,7 +38,7 @@ export default function MenuPage() {
           <Link to="/mood" className={styles.item}>
             mood constructor
           </Link>
-          <Link to="/#about" className={styles.item}>
+          <Link to="/about" className={styles.item}>
             about us
           </Link>
           <Link to="/profile" className={styles.item}>
