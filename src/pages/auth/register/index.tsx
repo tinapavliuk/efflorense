@@ -1,65 +1,63 @@
 import { Link } from 'react-router-dom'
-
-import styles from './Register.module.css'
+import styles from '../Auth.module.css'
 
 export default function RegisterPage() {
   return (
     <section className={styles.page}>
-      <Link to="/" className={styles.logo}>
+      <Link to="/" className={styles.badge}>
         E
       </Link>
 
       <h1 className={styles.title}>Registration</h1>
 
-      <form className={styles.form}>
-        <label className={styles.label}>
-          <span>Your email*</span>
+      <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
+        <label className={styles.field}>
+          <span className={styles.label}>Your email*</span>
           <input className={styles.input} type="email" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Your password*</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Your password*</span>
           <input className={styles.input} type="password" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Confirm your password*</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Confirm your password*</span>
           <input className={styles.input} type="password" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Your nickname*</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Your nickname*</span>
           <input className={styles.input} type="text" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Your name*</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Your name*</span>
           <input className={styles.input} type="text" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Your surname</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Your surname</span>
           <input className={styles.input} type="text" placeholder="Type here" />
         </label>
 
-        <label className={styles.label}>
-          <span>Your phone number*</span>
+        <label className={styles.field}>
+          <span className={styles.label}>Your phone number*</span>
           <input className={styles.input} type="tel" placeholder="Type here" />
         </label>
 
-        <button type="button" className={styles.cta}>
-          <span className={styles.oval} />
-          <span className={styles.strokeA} />
-          <span className={styles.strokeB} />
-          <span className={styles.ctaLabel}>Create new account</span>
+        <button className={styles.primaryButton} type="submit">
+          <span className={styles.primaryButtonOval} />
+          <span className={styles.primaryButtonStroke} />
+          <span className={styles.primaryButtonLabel}>Create new account</span>
         </button>
       </form>
 
       <div className={styles.bottom}>
-        <div className={styles.note}>Already have an account?</div>
-        <Link to="/auth/login" className={styles.smallCta}>
-          <span className={styles.smallOval} />
-          <span className={styles.smallLabel}>Log in</span>
+        <p className={styles.note}>Already have an account?</p>
+        <Link to="/auth/login" className={styles.secondaryButton}>
+          <span className={styles.secondaryButtonOval} />
+          <span className={styles.secondaryButtonLabel}>Log in</span>
         </Link>
       </div>
     </section>

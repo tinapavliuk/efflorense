@@ -1,30 +1,12 @@
 import { Link } from 'react-router-dom'
-import styles from './HomeBefore.module.css'
+import styles from './AboutUs.module.css'
 
 export default function HomePage() {
   return (
     <section className={styles.page}>
-      <header className={styles.hero}>
-        <div className={styles.overlay} />
-        <div className={styles.heroCenter}>
-          <div className={styles.brandBox}>
-            <h1 className={styles.brand}>Efflorense</h1>
-          </div>
-          <p className={styles.subtitle}>It’s a place where your floral dreams come true</p>
-          <div className={styles.actions}>
-            <Link to="/auth/register" className={styles.cta}>
-              <span className={styles.ctaOval} />
-              <span className={styles.ctaLabel}>Registration</span>
-            </Link>
-            <Link to="/auth/login" className={styles.cta}>
-              <span className={styles.ctaOval} />
-              <span className={styles.ctaLabel}>Log in</span>
-            </Link>
-          </div>
-          <div className={styles.location}>Location: Pretty girls avenue, 33</div>
-        </div>
-      </header>
-
+        <Link to="/" className={styles.badge}>
+        E
+      </Link>
       <section className={styles.about}>
         <h2 className={styles.sectionTitle}>About us</h2>
 
