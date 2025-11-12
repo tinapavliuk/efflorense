@@ -24,14 +24,10 @@ export default function CatalogPage() {
     return ['all', ...Array.from(set)]
   }, [flowers])
 
-  const selected = useMemo(
-    () => flowers.find((f) => f.id === openId) ?? null,
-    [flowers, openId],
-  )
+  const selected = useMemo(() => flowers.find((f) => f.id === openId) ?? null, [flowers, openId])
 
   const visibleFlowers = useMemo(() => {
-    const filtered =
-      typeFilter === 'all' ? flowers : flowers.filter((f) => f.type === typeFilter)
+    const filtered = typeFilter === 'all' ? flowers : flowers.filter((f) => f.type === typeFilter)
 
     const sorted = [...filtered].sort((a, b) => {
       if (priceSort === 'asc') return a.price - b.price

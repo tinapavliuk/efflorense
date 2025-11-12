@@ -1,127 +1,126 @@
 .page {
-    min-height: 100vh;
-    background: #fde4d1;
-    padding: 110px 16px 56px;
-    display: grid;
-    justify-items: center;
-    position: relative;
-  }
-  
-  .badge {
-    position: absolute;
-    left: 24px;
-    top: 20px;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    color: #fde4d1;
-    background: #5a3f31;
-    border: 1px solid #fde4d1;
-    font-family: 'Princess Diana', serif;
-    font-size: 24px;
-    text-decoration: none;
-  }
-  
+  min-height: 100vh;
+  background: #fde4d1;
+  padding: 110px 16px 56px;
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fde4d1;
+  background: #5a3f31;
+  border: 1px solid #fde4d1;
+  font-family: 'Princess Diana', serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 0 32px;
+  color: #684b39;
+  font-family: 'Princess Diana', serif;
+  font-size: 96px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  width: min(720px, 100%);
+  background: #fffaf6;
+  border-radius: 28px;
+  padding: 28px 28px 32px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+  display: grid;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(104, 75, 57, 0.08);
+}
+
+.label {
+  color: #906850;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.value {
+  color: #684b39;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.subblock {
+  margin-top: 4px;
+  padding: 14px 0 0;
+}
+
+.subtitle {
+  margin: 0 0 6px;
+  color: #684b39;
+  font-family: 'Princess Diana', serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.text {
+  margin: 0;
+  color: #906850;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 16px;
+}
+
+.logout {
+  margin-top: 18px;
+  width: 210px;
+  height: 60px;
+  border-radius: 999px;
+  border: 1px solid #684b39;
+  background: #684b39;
+  color: #fde4d1;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  justify-self: flex-end;
+}
+
+.logout:focus {
+  outline: none;
+}
+
+@media (max-width: 640px) {
   .title {
-    margin: 0 0 32px;
-    color: #684b39;
-    font-family: 'Princess Diana', serif;
-    font-size: 96px;
-    font-weight: 400;
-    text-align: center;
-    text-shadow: 0 4px 4px rgba(0,0,0,0.12);
+    font-size: 64px;
   }
-  
   .card {
-    width: min(720px, 100%);
-    background: #fffaf6;
-    border-radius: 28px;
-    padding: 28px 28px 32px;
-    box-shadow: 0 10px 28px rgba(0,0,0,0.05);
-    display: grid;
-    gap: 16px;
+    gap: 14px;
   }
-  
   .row {
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    padding-bottom: 14px;
-    border-bottom: 1px solid rgba(104, 75, 57, 0.08);
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .label {
-    color: #906850;
-    font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
   .value {
-    color: #684b39;
-    font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: right;
+    text-align: left;
   }
-  
-  .subblock {
-    margin-top: 4px;
-    padding: 14px 0 0;
-  }
-  
-  .subtitle {
-    margin: 0 0 6px;
-    color: #684b39;
-    font-family: 'Princess Diana', serif;
-    font-size: 42px;
-    font-weight: 400;
-  }
-  
-  .text {
-    margin: 0;
-    color: #906850;
-    font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-    font-size: 16px;
-  }
-  
   .logout {
-    margin-top: 18px;
-    width: 210px;
-    height: 60px;
-    border-radius: 999px;
-    border: 1px solid #684b39;
-    background: #684b39;
-    color: #fde4d1;
-    font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    justify-self: flex-end;
+    justify-self: center;
   }
-  
-  .logout:focus {
-    outline: none;
-  }
-  
-  @media (max-width: 640px) {
-    .title {
-      font-size: 64px;
-    }
-    .card {
-      gap: 14px;
-    }
-    .row {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .value {
-      text-align: left;
-    }
-    .logout {
-      justify-self: center;
-    }
-  }
-  
+}

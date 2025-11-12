@@ -20,7 +20,6 @@ export function useCart() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-
   useEffect(() => {
     if (!user) {
       setCart([])
@@ -45,10 +44,7 @@ export function useCart() {
     if (!user) return
 
     const existing = cart.find(
-      (c) =>
-        c.kind === 'flower' &&
-        c.flowerId === item.flowerId &&
-        c.userId === user.id,
+      (c) => c.kind === 'flower' && c.flowerId === item.flowerId && c.userId === user.id,
     )
 
     if (existing && existing.id) {

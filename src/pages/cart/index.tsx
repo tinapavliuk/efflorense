@@ -11,22 +11,12 @@ const PACKAGING_PRICES: Record<PackagingName, number> = {
 }
 
 export default function CartPage() {
-  const {
-    cart,
-    loading,
-    error,
-    updateQuantity,
-    removeFromCart,
-    upsertPackaging,
-  } = useCart()
+  const { cart, loading, error, updateQuantity, removeFromCart, upsertPackaging } = useCart()
 
   const flowers = cart.filter((item) => item.kind === 'flower')
   const packaging = cart.find((item) => item.kind === 'packaging') ?? null
 
-  const flowersTotal = flowers.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0,
-  )
+  const flowersTotal = flowers.reduce((sum, item) => sum + item.price * item.quantity, 0)
   const total = flowersTotal + (packaging ? packaging.price : 0)
 
   const handleDec = (id: number, current: number) => {
@@ -90,9 +80,7 @@ export default function CartPage() {
               <button
                 type="button"
                 className={styles.qtyBtn}
-                onClick={() =>
-                  flower.id && handleDec(flower.id, flower.quantity)
-                }
+                onClick={() => flower.id && handleDec(flower.id, flower.quantity)}
               >
                 −
               </button>
@@ -100,9 +88,7 @@ export default function CartPage() {
               <button
                 type="button"
                 className={styles.qtyBtn}
-                onClick={() =>
-                  flower.id && updateQuantity(flower.id, flower.quantity + 1)
-                }
+                onClick={() => flower.id && updateQuantity(flower.id, flower.quantity + 1)}
               >
                 +
               </button>
@@ -173,9 +159,7 @@ export default function CartPage() {
         {packaging && (
           <div className={styles.summaryRow}>
             <span className={styles.summaryText}>{packaging.name}</span>
-            <div className={styles.priceDisplay}>
-              {packaging.price.toFixed(2)}
-            </div>
+            <div className={styles.priceDisplay}>{packaging.price.toFixed(2)}</div>
           </div>
         )}
 

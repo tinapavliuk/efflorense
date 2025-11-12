@@ -16,8 +16,7 @@ export default function LoginPage() {
     try {
       await login(email, password)
       navigate('/home-after', { replace: true })
-    } catch {
-    }
+    } catch {}
   }
 
   return (
@@ -58,9 +57,7 @@ export default function LoginPage() {
         <button className={styles.primaryButton} type="submit" disabled={loading}>
           <span className={styles.primaryButtonOval} />
           <span className={styles.primaryButtonStroke} />
-          <span className={styles.primaryButtonLabel}>
-            {loading ? 'Logging in...' : 'Log in'}
-          </span>
+          <span className={styles.primaryButtonLabel}>{loading ? 'Logging in...' : 'Log in'}</span>
         </button>
       </form>
 

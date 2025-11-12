@@ -23,16 +23,13 @@ export default function ProfilePage() {
           <span className={styles.value}>{user?.email}</span>
         </div>
         <div className={styles.row}>
-  <span className={styles.label}>Phone</span>
-  <span className={styles.value}>{user?.phone || 'no phone yet'}</span>
-</div>
-
+          <span className={styles.label}>Phone</span>
+          <span className={styles.value}>{user?.phone || 'no phone yet'}</span>
+        </div>
 
         <div className={styles.subblock}>
           <h2 className={styles.subtitle}>Delivery info</h2>
-          <p className={styles.text}>
-            Here will be your delivery address and favorite packaging!
-          </p>
+          <p className={styles.text}>Here will be your delivery address and favorite packaging!</p>
         </div>
 
         <button type="button" className={styles.logout} onClick={logout}>
