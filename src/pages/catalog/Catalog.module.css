@@ -2,10 +2,9 @@
   position: relative;
   min-height: 100vh;
   background: #fde4d1;
-  overflow: clip;
-}
-
-.badge {
+  }
+  
+  .badge {
   position: absolute;
   left: 24px;
   top: 20px;
@@ -21,73 +20,73 @@
   font-size: 24px;
   text-decoration: none;
   z-index: 20;
-}
-
-.bubbleA,
-.bubbleB {
+  }
+  
+  .bubbleA,
+  .bubbleB {
   position: absolute;
   border-radius: 50%;
   background: rgba(104, 75, 57, 0.1);
   z-index: 0;
-}
-
-.bubbleA {
+  }
+  
+  .bubbleA {
   width: 720px;
   height: 720px;
   left: -80px;
   top: 120px;
-}
-
-.bubbleB {
+  }
+  
+  .bubbleB {
   width: 860px;
   height: 860px;
   right: -120px;
   top: 260px;
-}
-
-.hero {
+  }
+  
+  .hero {
   position: relative;
   z-index: 1;
   max-width: 1440px;
   margin: 0 auto;
   padding: 105px 40px 24px;
   text-align: center;
-}
-
-.title {
+  }
+  
+  .title {
   color: #684b39;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   font-family: 'Princess Diana', serif;
   font-size: 128px;
   font-weight: 400;
   margin: 0 0 8px;
-}
-
-.lead {
+  }
+  
+  .lead {
   max-width: 875px;
   margin: 0 auto 24px;
   color: #684b39;
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 32px;
   font-weight: 350;
-}
-
-.accent {
+  }
+  
+  .accent {
   font-family: 'Princess Diana', serif;
   font-size: 48px;
   font-weight: 400;
-}
-
-.actionsRow {
+  }
+  
+  .actionsRow {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
-}
-
-.moodButton {
+  }
+  
+  .moodButton {
   position: relative;
   display: grid;
   place-items: center;
@@ -96,9 +95,9 @@
   background: transparent;
   border: none;
   cursor: pointer;
-}
-
-.moodButtonInner {
+  }
+  
+  .moodButtonInner {
   position: absolute;
   inset: 0;
   width: 322px;
@@ -107,9 +106,9 @@
   border-radius: 999px;
   background: #906850;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-}
-
-.moodButton::after {
+  }
+  
+  .moodButton::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -118,51 +117,51 @@
   margin: auto;
   border-radius: 999px;
   border: 1px solid #684b39;
-}
-
-.moodButtonLabel {
+  }
+  
+  .moodButtonLabel {
   position: relative;
   color: #fde4d1;
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 24px;
   font-weight: 500;
-}
-
-.or {
+  }
+  
+  .or {
   color: #684b39;
   font-family: 'Princess Diana', serif;
   font-size: 64px;
   font-weight: 400;
-}
-
-.subtitle {
+  }
+  
+  .subtitle {
   color: #684b39;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   font-family: 'Princess Diana', serif;
   font-size: 128px;
   font-weight: 400;
   margin: 8px auto;
-}
-
-.sortBar {
+  }
+  
+  .sortBar {
   display: flex;
   align-items: center;
   gap: 16px;
   padding: 8px 40px 16px;
   z-index: 1;
-}
-
-.sortLabel {
+  }
+  
+  .sortLabel {
   color: #684b39;
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-}
-
-.sortGroup {
+  }
+  
+  .sortGroup {
   display: flex;
   gap: 12px;
-}
-
-.sortButton {
+  }
+  
+  .sortButton {
   border: 1px solid #684b39;
   background: rgba(239, 239, 239, 0.2);
   border-radius: 999px;
@@ -171,14 +170,14 @@
   font-size: 16px;
   color: #684b39;
   cursor: pointer;
-}
-
-.sortButtonActive {
+  }
+  
+  .sortButtonActive {
   background: #5a3f31;
   color: #fde4d1;
-}
-
-.grid {
+  }
+  
+  .grid {
   position: relative;
   display: grid;
   gap: 24px;
@@ -186,31 +185,31 @@
   align-items: start;
   padding: 0 40px 60px;
   z-index: 1;
-}
-
-.card {
+  }
+  
+  .card {
   border: 1px solid #eee;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
   overflow: hidden;
-}
-
-.thumb {
+  }
+  
+  .thumb {
   position: relative;
   aspect-ratio: 1/1;
   background: #f5f5f5;
   display: grid;
   place-items: center;
-}
-
-.thumb img {
+  }
+  
+  .thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.thumbButton {
+  }
+  
+  .thumbButton {
   position: absolute;
   right: 12px;
   bottom: 12px;
@@ -225,29 +224,29 @@
   display: grid;
   place-items: center;
   cursor: pointer;
-}
-
-.cardFooter {
+  }
+  
+  .cardFooter {
   padding: 10px 12px;
   text-align: center;
   background: #fff;
-}
-
-.cardTitle {
+  }
+  
+  .cardTitle {
   font-family: 'Princess Diana', serif;
   font-size: 22px;
   color: #684b39;
-}
-
-.sheetBackdrop {
+  }
+  
+  .sheetBackdrop {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(2px);
   z-index: 30;
-}
-
-.sheet {
+  }
+  
+  .sheet {
   position: fixed;
   top: 0;
   right: 0;
@@ -256,48 +255,48 @@
   background: #fff;
   border-left: 1px solid #e8e8e8;
   box-shadow: -12px 0 24px rgba(0, 0, 0, 0.15);
-  z-index: 31;
+  z-index: 40;
   animation: sheetIn 0.18s ease-out;
-}
-
-@keyframes sheetIn {
+  }
+  
+  @keyframes sheetIn {
   from {
-    transform: translateX(12px);
-    opacity: 0.8;
+  transform: translateX(12px);
+  opacity: 0.8;
   }
   to {
-    transform: translateX(0);
-    opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
   }
-}
-
-.sheetBody {
+  }
+  
+  .sheetBody {
   height: 100%;
   padding: 24px;
   display: grid;
   gap: 16px;
   overflow: auto;
-}
-
-.sheetImage {
+  }
+  
+  .sheetImage {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   background: #f5f5f5;
-}
-
-.sheetImage img {
+  }
+  
+  .sheetImage img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.sheetInfo {
+  }
+  
+  .sheetInfo {
   display: grid;
   gap: 12px;
-}
-
-.kv {
+  }
+  
+  .kv {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -305,38 +304,38 @@
   gap: 6px;
   color: #684b39;
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-}
-
-.sheetActions {
+  }
+  
+  .sheetActions {
   display: flex;
   gap: 12px;
   align-items: center;
-}
-
-.stepper {
+  }
+  
+  .stepper {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   border: 1px solid #ddd;
   border-radius: 999px;
   padding: 6px 10px;
-}
-
-.step {
+  }
+  
+  .step {
   all: unset;
   cursor: pointer;
   padding: 2px 8px;
   font-size: 18px;
   color: #684b39;
-}
-
-.qty {
+  }
+  
+  .qty {
   min-width: 18px;
   text-align: center;
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
-}
-
-.primaryButton {
+  }
+  
+  .primaryButton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -349,40 +348,68 @@
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-}
-
-@media (max-width: 1280px) {
-  .title,
-  .subtitle {
-    font-size: 96px;
   }
-}
-
-@media (max-width: 820px) {
+  
+  .toCart {
+    margin-left: auto;
+    background: #906850;
+    color: #fde4d1;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    cursor: pointer;         
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  
+  .secondaryButton {
+  display: inline-flex;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: rgba(144, 104, 80, 0.1);
+  color: #684b39;
+  text-decoration: none;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  }
+  
+  @media (max-width: 1280px) {
   .title,
   .subtitle {
-    font-size: 72px;
+  font-size: 96px;
+  }
+  }
+  
+  @media (max-width: 820px) {
+  .title,
+  .subtitle {
+  font-size: 72px;
   }
   .accent {
-    font-size: 36px;
+  font-size: 36px;
   }
   .or {
-    font-size: 48px;
+  font-size: 48px;
   }
   .sortBar {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   }
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
-
-@media (max-width: 560px) {
+  }
+  
+  @media (max-width: 560px) {
   .grid {
-    grid-template-columns: 1fr;
-    padding-inline: 20px;
+  grid-template-columns: 1fr;
+  padding-inline: 20px;
   }
   .hero {
-    padding-inline: 20px;
+  padding-inline: 20px;
   }
-}
+  }
+  

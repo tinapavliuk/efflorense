@@ -1,14 +1,20 @@
-import { Navigate } from 'react-router-dom'
+import { Navigate, Outlet } from 'react-router-dom'
+import { useAuth } from '../auth/useAuth'
 
-type ProtectedRouteProps = {
-  isAllowed: boolean
-  redirectTo?: string
-  children: React.ReactNode
+type Props = {
+  children?: React.ReactNode
 }
 
-export function ProtectedRoute({ isAllowed, redirectTo = '/auth/login', children }: ProtectedRouteProps) {
-  if (!isAllowed) {
-    return <Navigate to={redirectTo} replace />
+export function ProtectedRoute({ children }: Props) {
+  const { isAuth, loading } = useAuth()
+
+  if (loading) {
+    return null
   }
-  return children
+
+  if (!isAuth) {
+    return <Navigate to="/auth/login" replace />
+  }
+
+  return children ?? <Outlet />
 }

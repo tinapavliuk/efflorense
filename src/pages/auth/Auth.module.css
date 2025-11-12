@@ -17,6 +17,15 @@
   background-size: cover, cover;
   overflow: hidden;
 }
+.error {
+  color: #ffebe6;
+  background: rgba(107, 45, 45, 0.5);
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
 
 .badge {
   position: absolute;

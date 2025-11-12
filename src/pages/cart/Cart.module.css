@@ -47,7 +47,7 @@
 .flowerItem {
   width: 100%;
   max-width: 1231px;
-  margin: 0 auto 60px;
+  margin: 0 auto 32px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -90,6 +90,7 @@
 
 .quantityBlock {
   background: #684b39;
+  gap: 14px;
 }
 
 .priceText,
@@ -108,6 +109,20 @@
   font-size: 36px;
   font-weight: 500;
   text-align: center;
+}
+
+.qtyBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  background: #fef6f0;
+  color: #684b39;
+  font-size: 28px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
 }
 
 .packagingOptions {
@@ -130,6 +145,8 @@
   align-items: center;
   padding: 14px 14px 24px;
   position: relative;
+  border: none;
+  cursor: pointer;
 }
 
 .packagingImage {
@@ -158,6 +175,16 @@
   right: 20px;
   width: 40px;
   height: 40px;
+  border-radius: 999px;
+}
+
+.radioSelected {
+  background: #684b39;
+  box-shadow: inset 0 0 0 10px #fde4d1;
+}
+
+.radio {
+  background: #fde4d1;
 }
 
 .summaryBlock {
@@ -244,10 +271,6 @@
   font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
   font-size: 24px;
   font-weight: 500;
-}
-
-.orderButton:hover {
-  opacity: 0.9;
 }
 
 .managerMessage {
