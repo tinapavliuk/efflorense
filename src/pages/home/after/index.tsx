@@ -22,9 +22,9 @@ export default function HomeAfterPage() {
             <span className={styles.ctaOval} />
             <span className={styles.ctaLabel}>Make a bouquet</span>
           </Link>
-          <Link to="/menu" className={styles.cta}>
+          <Link to="/mood" className={styles.cta}>
             <span className={styles.ctaOval} />
-            <span className={styles.ctaLabel}>Order a ready-made</span>
+            <span className={styles.ctaLabel}>Mood constructor</span>
           </Link>
         </div>
 
