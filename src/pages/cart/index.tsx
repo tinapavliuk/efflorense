@@ -5,19 +5,27 @@ import styles from './Cart.module.css'
 type PackagingName = 'ribbon packaging' | 'paper packaging' | 'basket packaging'
 
 const PACKAGING_PRICES: Record<PackagingName, number> = {
-  'ribbon packaging': 1,
-  'paper packaging': 0.7,
+  'ribbon packaging': 0.7,
+  'paper packaging': 1,
   'basket packaging': 2,
 }
 
 export default function CartPage() {
-  const { cart, loading, error, updateQuantity, removeFromCart, upsertPackaging } = useCart()
+  const {
+    cart,
+    loading,
+    error,
+    updateQuantity,
+    removeFromCart,
+    upsertPackaging,
+    placeOrder,
+  } = useCart()
 
   const flowers = cart.filter((item) => item.kind === 'flower')
   const packaging = cart.find((item) => item.kind === 'packaging') ?? null
-
   const flowersTotal = flowers.reduce((sum, item) => sum + item.price * item.quantity, 0)
   const total = flowersTotal + (packaging ? packaging.price : 0)
+  const canPlaceOrder = flowers.length > 0 && !!packaging
 
   const handleDec = (id: number, current: number) => {
     if (current > 1) {
@@ -169,7 +177,12 @@ export default function CartPage() {
         </div>
       </div>
 
-      <button className={styles.orderButton} type="button">
+      <button
+        className={styles.orderButton}
+        type="button"
+        onClick={placeOrder}
+        disabled={!canPlaceOrder}
+      >
         Order
       </button>
 

@@ -13,7 +13,7 @@ type RegisterPayload = {
 
 export function useAuthApi() {
   async function login(data: LoginPayload) {
-    const res = await fetch(`${API_URL}/login`, {
+    const res = await fetch(`${API_URL}/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
@@ -26,7 +26,7 @@ export function useAuthApi() {
   }
 
   async function register(data: RegisterPayload) {
-    const res = await fetch(`${API_URL}/register`, {
+    const res = await fetch(`${API_URL}/auth/register`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
