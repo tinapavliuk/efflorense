@@ -490,38 +490,56 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "0": 6,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
-      "0": 2,
-      "1": 2,
+      "0": 6,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -541,7 +559,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/widgets/Footer/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/widgets/Footer/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/widgets/Footer/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -1216,51 +1236,72 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 6,
-      "6": 2,
+      "0": 5,
+      "1": 5,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 18,
+      "6": 6,
       "7": 0,
-      "8": 2,
-      "9": 2,
-      "10": 1,
-      "11": 2,
-      "12": 2,
-      "13": 2,
-      "14": 2,
-      "15": 2,
+      "8": 6,
+      "9": 5,
+      "10": 3,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 5,
       "16": 0,
-      "17": 2,
-      "18": 2,
-      "19": 2,
+      "17": 5,
+      "18": 5,
+      "19": 5,
       "20": 0,
       "21": 0,
       "22": 0,
       "23": 0,
       "24": 0,
-      "25": 2,
-      "26": 2
+      "25": 5,
+      "26": 5
     },
     "f": {
-      "0": 2,
-      "1": 6,
-      "2": 1,
-      "3": 2,
+      "0": 6,
+      "1": 18,
+      "2": 3,
+      "3": 5,
       "4": 0,
-      "5": 2,
-      "6": 2
+      "5": 5,
+      "6": 5
     },
     "b": {
-      "0": [0, 2],
-      "1": [2, 0],
-      "2": [2, 0],
-      "3": [2, 2],
-      "4": [0, 2],
-      "5": [0, 0],
-      "6": [0, 0]
+      "0": [
+        0,
+        6
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        0
+      ],
+      "3": [
+        5,
+        5
+      ],
+      "4": [
+        0,
+        5
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -2087,61 +2128,82 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 4,
-      "2": 4,
-      "3": 4,
-      "4": 4,
-      "5": 8,
-      "6": 8,
-      "7": 8,
-      "8": 8,
-      "9": 8,
-      "10": 8,
-      "11": 4,
-      "12": 4,
-      "13": 4,
-      "14": 4,
-      "15": 3,
-      "16": 4,
-      "17": 2,
-      "18": 1,
-      "19": 2,
-      "20": 2,
-      "21": 2,
-      "22": 2,
-      "23": 2,
+      "0": 5,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 21,
+      "6": 21,
+      "7": 21,
+      "8": 21,
+      "9": 21,
+      "10": 21,
+      "11": 10,
+      "12": 10,
+      "13": 10,
+      "14": 10,
+      "15": 7,
+      "16": 10,
+      "17": 5,
+      "18": 3,
+      "19": 5,
+      "20": 5,
+      "21": 5,
+      "22": 5,
+      "23": 5,
       "24": 0,
-      "25": 2,
-      "26": 2,
-      "27": 2,
+      "25": 5,
+      "26": 5,
+      "27": 5,
       "28": 0,
       "29": 0,
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 2,
-      "34": 2
+      "33": 5,
+      "34": 5
     },
     "f": {
-      "0": 4,
-      "1": 4,
-      "2": 8,
-      "3": 3,
-      "4": 1,
-      "5": 2,
+      "0": 10,
+      "1": 10,
+      "2": 21,
+      "3": 7,
+      "4": 3,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2
+      "7": 5,
+      "8": 5
     },
     "b": {
-      "0": [8, 0],
-      "1": [2, 0],
-      "2": [2, 0],
-      "3": [2, 2],
-      "4": [0, 2],
-      "5": [0, 0],
-      "6": [0, 0]
+      "0": [
+        21,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        0
+      ],
+      "3": [
+        5,
+        5
+      ],
+      "4": [
+        0,
+        5
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -2172,7 +2234,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/ScrollToTop.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/ScrollToTop.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/ScrollToTop.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -2743,44 +2807,62 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 1,
-      "6": 2,
-      "7": 2,
-      "8": 2,
-      "9": 2,
-      "10": 2,
+      "0": 5,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 5,
+      "5": 3,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
       "11": 0,
-      "12": 2,
-      "13": 2,
-      "14": 2,
+      "12": 5,
+      "13": 5,
+      "14": 5,
       "15": 0,
       "16": 0,
       "17": 0,
       "18": 0,
       "19": 0,
-      "20": 2,
-      "21": 2
+      "20": 5,
+      "21": 5
     },
     "f": {
-      "0": 2,
-      "1": 1,
-      "2": 2,
+      "0": 6,
+      "1": 3,
+      "2": 5,
       "3": 0,
-      "4": 2,
-      "5": 2
+      "4": 5,
+      "5": 5
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -2802,7 +2884,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/App.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/App.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/App.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -3299,38 +3383,56 @@
       }
     },
     "s": {
-      "0": 0,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "0": 4,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
-      "0": 0,
-      "1": 2,
+      "0": 4,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -3375,7 +3477,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/home/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/home/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/home/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -3872,38 +3976,56 @@
       }
     },
     "s": {
-      "0": 0,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "0": 2,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
-      "0": 0,
-      "1": 2,
+      "0": 2,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -4232,7 +4354,10 @@
       "2": 0
     },
     "b": {
-      "0": [0, 0]
+      "0": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -5862,24 +5987,24 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 8,
-      "4": 8,
-      "5": 8,
-      "6": 8,
-      "7": 8,
-      "8": 4,
-      "9": 4,
-      "10": 4,
-      "11": 4,
-      "12": 4,
-      "13": 4,
-      "14": 0,
-      "15": 0,
-      "16": 4,
-      "17": 8,
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 24,
+      "4": 24,
+      "5": 24,
+      "6": 24,
+      "7": 24,
+      "8": 10,
+      "9": 10,
+      "10": 10,
+      "11": 10,
+      "12": 10,
+      "13": 10,
+      "14": 2,
+      "15": 2,
+      "16": 10,
+      "17": 24,
       "18": 0,
       "19": 0,
       "20": 0,
@@ -5898,81 +6023,136 @@
       "33": 0,
       "34": 0,
       "35": 0,
-      "36": 8,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0,
-      "41": 0,
+      "36": 24,
+      "37": 1,
+      "38": 1,
+      "39": 1,
+      "40": 1,
+      "41": 1,
       "42": 0,
-      "43": 0,
-      "44": 0,
-      "45": 0,
-      "46": 0,
-      "47": 0,
-      "48": 0,
-      "49": 0,
+      "43": 1,
+      "44": 1,
+      "45": 1,
+      "46": 1,
+      "47": 1,
+      "48": 1,
+      "49": 1,
       "50": 0,
-      "51": 0,
+      "51": 1,
       "52": 0,
       "53": 0,
-      "54": 0,
-      "55": 8,
+      "54": 1,
+      "55": 24,
       "56": 0,
       "57": 0,
       "58": 0,
       "59": 0,
       "60": 0,
       "61": 0,
-      "62": 8,
-      "63": 2,
-      "64": 2,
-      "65": 2,
-      "66": 2,
-      "67": 2,
-      "68": 2,
+      "62": 24,
+      "63": 5,
+      "64": 5,
+      "65": 5,
+      "66": 5,
+      "67": 5,
+      "68": 5,
       "69": 0,
-      "70": 2,
-      "71": 2,
-      "72": 2,
+      "70": 5,
+      "71": 5,
+      "72": 5,
       "73": 0,
       "74": 0,
       "75": 0,
       "76": 0,
       "77": 0,
-      "78": 2,
-      "79": 2
+      "78": 5,
+      "79": 5
     },
     "f": {
-      "0": 8,
-      "1": 4,
+      "0": 24,
+      "1": 10,
       "2": 0,
-      "3": 0,
+      "3": 1,
       "4": 0,
-      "5": 2,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2
+      "7": 5,
+      "8": 5
     },
     "b": {
-      "0": [0, 4],
-      "1": [4, 0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [0, 0],
-      "9": [0, 0],
-      "10": [0, 0],
-      "11": [0, 0],
-      "12": [2, 0],
-      "13": [2, 0],
-      "14": [2, 2],
-      "15": [0, 2],
-      "16": [0, 0],
-      "17": [0, 0]
+      "0": [
+        2,
+        8
+      ],
+      "1": [
+        10,
+        2,
+        2
+      ],
+      "2": [
+        2,
+        0
+      ],
+      "3": [
+        2,
+        2
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        1
+      ],
+      "9": [
+        1,
+        0
+      ],
+      "10": [
+        0,
+        1
+      ],
+      "11": [
+        0,
+        0
+      ],
+      "12": [
+        5,
+        0
+      ],
+      "13": [
+        5,
+        0
+      ],
+      "14": [
+        5,
+        5
+      ],
+      "15": [
+        0,
+        5
+      ],
+      "16": [
+        0,
+        0
+      ],
+      "17": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -6141,20 +6321,25 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
+      "0": 24,
+      "1": 24,
       "2": 0,
-      "3": 8
+      "3": 24
     },
     "f": {
-      "0": 8
+      "0": 24
     },
     "b": {
-      "0": [0, 8]
+      "0": [
+        0,
+        24
+      ]
     },
     "inputSourceMap": {
       "version": 3,
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/auth/useAuth.ts"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/auth/useAuth.ts"
+      ],
       "mappings": "AAAA,SAAS,kBAAkB;AAC3B,SAAS,mBAAmB;AAErB,gBAAS,UAAU;AACxB,QAAM,MAAM,WAAW,WAAW;AAClC,MAAI,CAAC,KAAK;AACR,UAAM,IAAI,MAAM,4CAA4C;AAAA,EAC9D;AACA,SAAO;AACT;",
       "names": []
     },
@@ -8804,7 +8989,7 @@
       }
     },
     "s": {
-      "0": 2,
+      "0": 5,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -8947,41 +9132,133 @@
       "22": 0
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0, 0],
-      "7": [0, 0],
-      "8": [0, 0],
-      "9": [0, 0],
-      "10": [0, 0],
-      "11": [0, 0],
-      "12": [0, 0],
-      "13": [0, 0],
-      "14": [0, 0],
-      "15": [0, 0],
-      "16": [0, 0],
-      "17": [0, 0],
-      "18": [0, 0],
-      "19": [0, 0],
-      "20": [0, 0],
-      "21": [0, 0],
-      "22": [0, 0],
-      "23": [0, 0],
-      "24": [0, 0],
-      "25": [0, 0],
-      "26": [0, 0],
-      "27": [0, 0],
-      "28": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ],
+      "9": [
+        0,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ],
+      "11": [
+        0,
+        0
+      ],
+      "12": [
+        0,
+        0
+      ],
+      "13": [
+        0,
+        0
+      ],
+      "14": [
+        0,
+        0
+      ],
+      "15": [
+        0,
+        0
+      ],
+      "16": [
+        0,
+        0
+      ],
+      "17": [
+        0,
+        0
+      ],
+      "18": [
+        0,
+        0
+      ],
+      "19": [
+        0,
+        0
+      ],
+      "20": [
+        0,
+        0
+      ],
+      "21": [
+        0,
+        0
+      ],
+      "22": [
+        0,
+        0
+      ],
+      "23": [
+        0,
+        0
+      ],
+      "24": [
+        0,
+        0
+      ],
+      "25": [
+        0,
+        0
+      ],
+      "26": [
+        0,
+        0
+      ],
+      "27": [
+        0,
+        0
+      ],
+      "28": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/hooks/useCart.ts"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/hooks/useCart.ts"
+      ],
       "mappings": "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",
-      "names": ["res"]
+      "names": [
+        "res"
+      ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "411534b2a6505a4d683f32c374d424366d44e837"
@@ -11143,7 +11420,7 @@
       }
     },
     "s": {
-      "0": 2,
+      "0": 5,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -11202,24 +11479,24 @@
       "56": 0,
       "57": 0,
       "58": 0,
-      "59": 2,
+      "59": 5,
       "60": 0,
-      "61": 2,
-      "62": 2,
-      "63": 2,
-      "64": 2,
-      "65": 2,
+      "61": 5,
+      "62": 5,
+      "63": 5,
+      "64": 5,
+      "65": 5,
       "66": 0,
-      "67": 2,
-      "68": 2,
-      "69": 2,
+      "67": 5,
+      "68": 5,
+      "69": 5,
       "70": 0,
       "71": 0,
       "72": 0,
       "73": 0,
       "74": 0,
-      "75": 2,
-      "76": 2
+      "75": 5,
+      "76": 5
     },
     "f": {
       "0": 0,
@@ -11247,32 +11524,93 @@
       "22": 0,
       "23": 0,
       "24": 0,
-      "25": 2,
+      "25": 5,
       "26": 0,
-      "27": 2,
-      "28": 2
+      "27": 5,
+      "28": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [0, 0],
-      "9": [0, 0],
-      "10": [0, 0],
-      "11": [0, 0, 0],
-      "12": [0, 0],
-      "13": [0, 0],
-      "14": [2, 0],
-      "15": [2, 0],
-      "16": [2, 2],
-      "17": [0, 2],
-      "18": [0, 0],
-      "19": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ],
+      "9": [
+        0,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ],
+      "11": [
+        0,
+        0,
+        0
+      ],
+      "12": [
+        0,
+        0
+      ],
+      "13": [
+        0,
+        0
+      ],
+      "14": [
+        5,
+        0
+      ],
+      "15": [
+        5,
+        0
+      ],
+      "16": [
+        5,
+        5
+      ],
+      "17": [
+        0,
+        5
+      ],
+      "18": [
+        0,
+        0
+      ],
+      "19": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -11382,7 +11720,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/catalog/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/catalog/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/catalog/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -12371,8 +12711,8 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
+      "0": 5,
+      "1": 5,
       "2": 0,
       "3": 0,
       "4": 0,
@@ -12389,23 +12729,23 @@
       "15": 0,
       "16": 0,
       "17": 0,
-      "18": 2,
-      "19": 2,
-      "20": 2,
-      "21": 2,
-      "22": 2,
-      "23": 2,
+      "18": 5,
+      "19": 5,
+      "20": 5,
+      "21": 5,
+      "22": 5,
+      "23": 5,
       "24": 0,
-      "25": 2,
-      "26": 2,
-      "27": 2,
+      "25": 5,
+      "26": 5,
+      "27": 5,
       "28": 0,
       "29": 0,
       "30": 0,
       "31": 0,
       "32": 0,
-      "33": 2,
-      "34": 2
+      "33": 5,
+      "34": 5
     },
     "f": {
       "0": 0,
@@ -12415,23 +12755,56 @@
       "4": 0,
       "5": 0,
       "6": 0,
-      "7": 2,
+      "7": 5,
       "8": 0,
-      "9": 2,
-      "10": 2
+      "9": 5,
+      "10": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [2, 0],
-      "6": [2, 0],
-      "7": [2, 2],
-      "8": [0, 2],
-      "9": [0, 0],
-      "10": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        5,
+        0
+      ],
+      "6": [
+        5,
+        0
+      ],
+      "7": [
+        5,
+        5
+      ],
+      "8": [
+        0,
+        5
+      ],
+      "9": [
+        0,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -12480,7 +12853,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/mood/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/mood/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/mood/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -12978,44 +13353,68 @@
     },
     "s": {
       "0": 0,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
       "0": 0,
-      "1": 2,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
       "mappings": "AAAA,wBAAwBA,aAAa;AACnC,SAAO;AACT;AAACC,KAFuBD;AAAU,IAAAC;AAAAC,aAAAD,IAAA",
-      "names": ["GardenPage", "_c", "$RefreshReg$"],
+      "names": [
+        "GardenPage",
+        "_c",
+        "$RefreshReg$"
+      ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/garden/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/garden/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/garden/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -14626,8 +15025,8 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
+      "0": 5,
+      "1": 5,
       "2": 0,
       "3": 0,
       "4": 0,
@@ -14656,24 +15055,24 @@
       "27": 0,
       "28": 0,
       "29": 0,
-      "30": 2,
+      "30": 5,
       "31": 0,
-      "32": 2,
-      "33": 2,
-      "34": 2,
-      "35": 2,
-      "36": 2,
+      "32": 5,
+      "33": 5,
+      "34": 5,
+      "35": 5,
+      "36": 5,
       "37": 0,
-      "38": 2,
-      "39": 2,
-      "40": 2,
+      "38": 5,
+      "39": 5,
+      "40": 5,
       "41": 0,
       "42": 0,
       "43": 0,
       "44": 0,
       "45": 0,
-      "46": 2,
-      "47": 2
+      "46": 5,
+      "47": 5
     },
     "f": {
       "0": 0,
@@ -14690,32 +15089,92 @@
       "11": 0,
       "12": 0,
       "13": 0,
-      "14": 2,
+      "14": 5,
       "15": 0,
-      "16": 2,
-      "17": 2
+      "16": 5,
+      "17": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [0, 0],
-      "9": [0, 0],
-      "10": [0, 0],
-      "11": [0, 0],
-      "12": [0, 0],
-      "13": [0, 0],
-      "14": [2, 0],
-      "15": [2, 0],
-      "16": [2, 2],
-      "17": [0, 2],
-      "18": [0, 0],
-      "19": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ],
+      "9": [
+        0,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ],
+      "11": [
+        0,
+        0
+      ],
+      "12": [
+        0,
+        0
+      ],
+      "13": [
+        0,
+        0
+      ],
+      "14": [
+        5,
+        0
+      ],
+      "15": [
+        5,
+        0
+      ],
+      "16": [
+        5,
+        5
+      ],
+      "17": [
+        0,
+        5
+      ],
+      "18": [
+        0,
+        0
+      ],
+      "19": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -14789,7 +15248,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/cart/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/cart/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/cart/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -15287,37 +15748,55 @@
     },
     "s": {
       "0": 0,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
       "0": 0,
-      "1": 2,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -15342,7 +15821,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/menu/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/menu/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/menu/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -16243,7 +16724,7 @@
       }
     },
     "s": {
-      "0": 2,
+      "0": 5,
       "1": 2,
       "2": 2,
       "3": 2,
@@ -16259,24 +16740,24 @@
       "13": 2,
       "14": 0,
       "15": 0,
-      "16": 2,
+      "16": 5,
       "17": 1,
-      "18": 2,
-      "19": 2,
-      "20": 2,
-      "21": 2,
-      "22": 2,
+      "18": 5,
+      "19": 5,
+      "20": 5,
+      "21": 5,
+      "22": 5,
       "23": 0,
-      "24": 2,
-      "25": 2,
-      "26": 2,
+      "24": 5,
+      "25": 5,
+      "26": 5,
       "27": 0,
       "28": 0,
       "29": 0,
       "30": 0,
       "31": 0,
-      "32": 2,
-      "33": 2
+      "32": 5,
+      "33": 5
     },
     "f": {
       "0": 2,
@@ -16284,22 +16765,52 @@
       "2": 0,
       "3": 0,
       "4": 1,
-      "5": 2,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2
+      "7": 5,
+      "8": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 2],
-      "3": [0, 2],
-      "4": [2, 0],
-      "5": [2, 0],
-      "6": [2, 2],
-      "7": [0, 2],
-      "8": [0, 0],
-      "9": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ],
+      "4": [
+        5,
+        0
+      ],
+      "5": [
+        5,
+        0
+      ],
+      "6": [
+        5,
+        5
+      ],
+      "7": [
+        0,
+        5
+      ],
+      "8": [
+        0,
+        0
+      ],
+      "9": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -17701,91 +18212,134 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
+      "0": 5,
+      "1": 158,
+      "2": 158,
+      "3": 158,
+      "4": 158,
+      "5": 158,
+      "6": 158,
+      "7": 158,
+      "8": 158,
+      "9": 158,
+      "10": 158,
+      "11": 158,
+      "12": 158,
       "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
+      "14": 158,
+      "15": 158,
+      "16": 1,
+      "17": 1,
       "18": 0,
       "19": 0,
-      "20": 0,
+      "20": 1,
       "21": 0,
       "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1,
+      "27": 158,
+      "28": 40,
+      "29": 12,
+      "30": 12,
+      "31": 14,
       "32": 0,
       "33": 0,
       "34": 0,
-      "35": 2,
-      "36": 0,
-      "37": 2,
-      "38": 2,
-      "39": 2,
-      "40": 2,
-      "41": 2,
+      "35": 5,
+      "36": 1,
+      "37": 5,
+      "38": 5,
+      "39": 5,
+      "40": 5,
+      "41": 5,
       "42": 0,
-      "43": 2,
-      "44": 2,
-      "45": 2,
+      "43": 5,
+      "44": 5,
+      "45": 5,
       "46": 0,
       "47": 0,
       "48": 0,
       "49": 0,
       "50": 0,
-      "51": 2,
-      "52": 2
+      "51": 5,
+      "52": 5
     },
     "f": {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
+      "0": 158,
+      "1": 1,
+      "2": 40,
+      "3": 12,
+      "4": 12,
+      "5": 14,
       "6": 0,
       "7": 0,
       "8": 0,
-      "9": 0,
-      "10": 2,
+      "9": 1,
+      "10": 5,
       "11": 0,
-      "12": 2,
-      "13": 2
+      "12": 5,
+      "13": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [2, 0],
-      "9": [2, 0],
-      "10": [2, 2],
-      "11": [0, 2],
-      "12": [0, 0],
-      "13": [0, 0]
+      "0": [
+        0,
+        158
+      ],
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        1,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ],
+      "4": [
+        1,
+        1
+      ],
+      "5": [
+        158,
+        158,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        158
+      ],
+      "8": [
+        5,
+        0
+      ],
+      "9": [
+        5,
+        0
+      ],
+      "10": [
+        5,
+        5
+      ],
+      "11": [
+        0,
+        5
+      ],
+      "12": [
+        0,
+        0
+      ],
+      "13": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -18419,44 +18973,62 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 1,
-      "6": 2,
-      "7": 2,
-      "8": 2,
-      "9": 2,
-      "10": 2,
+      "0": 5,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 5,
+      "5": 2,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
       "11": 0,
-      "12": 2,
-      "13": 2,
-      "14": 2,
+      "12": 5,
+      "13": 5,
+      "14": 5,
       "15": 0,
       "16": 0,
       "17": 0,
       "18": 0,
       "19": 0,
-      "20": 2,
-      "21": 2
+      "20": 5,
+      "21": 5
     },
     "f": {
-      "0": 2,
-      "1": 1,
-      "2": 2,
+      "0": 4,
+      "1": 2,
+      "2": 5,
       "3": 0,
-      "4": 2,
-      "5": 2
+      "4": 5,
+      "5": 5
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -18474,7 +19046,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/BlankLayout.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/BlankLayout.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/BlankLayout.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -18971,38 +19545,56 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "0": 4,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
-      "0": 2,
-      "1": 2,
+      "0": 4,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -19020,7 +19612,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/not-found/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/not-found/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/not-found/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -19517,38 +20111,56 @@
       }
     },
     "s": {
-      "0": 0,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2,
+      "0": 2,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 2,
+      "7": 5,
+      "8": 5,
+      "9": 5,
       "10": 0,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 5,
       "16": 0
     },
     "f": {
-      "0": 0,
-      "1": 2,
+      "0": 2,
+      "1": 5,
       "2": 0,
-      "3": 2,
+      "3": 5,
       "4": 0
     },
     "b": {
-      "0": [2, 0],
-      "1": [2, 0],
-      "2": [2, 2],
-      "3": [0, 2],
-      "4": [0, 0],
-      "5": [0, 0]
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        5,
+        0
+      ],
+      "2": [
+        5,
+        5
+      ],
+      "3": [
+        0,
+        5
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -19583,7 +20195,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/about/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/about/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/about/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -20226,46 +20840,70 @@
       }
     },
     "s": {
-      "0": 2,
+      "0": 5,
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 2,
+      "4": 5,
       "5": 0,
-      "6": 2,
-      "7": 2,
-      "8": 2,
-      "9": 2,
-      "10": 2,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
       "11": 0,
-      "12": 2,
-      "13": 2,
-      "14": 2,
+      "12": 5,
+      "13": 5,
+      "14": 5,
       "15": 0,
       "16": 0,
       "17": 0,
       "18": 0,
       "19": 0,
-      "20": 2,
-      "21": 2
+      "20": 5,
+      "21": 5
     },
     "f": {
       "0": 0,
       "1": 0,
-      "2": 2,
+      "2": 5,
       "3": 0,
-      "4": 2,
-      "5": 2
+      "4": 5,
+      "5": 5
     },
     "b": {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [2, 0],
-      "3": [2, 0],
-      "4": [2, 2],
-      "5": [0, 2],
-      "6": [0, 0],
-      "7": [0, 0]
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        5,
+        0
+      ],
+      "3": [
+        5,
+        0
+      ],
+      "4": [
+        5,
+        5
+      ],
+      "5": [
+        0,
+        5
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -20295,7 +20933,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/profile/index.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/profile/index.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/pages/profile/index.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -21002,51 +21642,78 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 4,
-      "2": 4,
-      "3": 4,
-      "4": 2,
-      "5": 2,
+      "0": 5,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 4,
+      "5": 6,
       "6": 2,
-      "7": 0,
-      "8": 2,
-      "9": 1,
-      "10": 2,
-      "11": 2,
-      "12": 2,
-      "13": 2,
-      "14": 2,
+      "7": 4,
+      "8": 5,
+      "9": 3,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
       "15": 0,
-      "16": 2,
-      "17": 2,
-      "18": 2,
+      "16": 5,
+      "17": 5,
+      "18": 5,
       "19": 0,
       "20": 0,
       "21": 0,
       "22": 0,
       "23": 0,
-      "24": 2,
-      "25": 2
+      "24": 5,
+      "25": 5
     },
     "f": {
-      "0": 4,
-      "1": 1,
-      "2": 2,
+      "0": 10,
+      "1": 3,
+      "2": 5,
       "3": 0,
-      "4": 2,
-      "5": 2
+      "4": 5,
+      "5": 5
     },
     "b": {
-      "0": [2, 2],
-      "1": [2, 0],
-      "2": [0, 0],
-      "3": [2, 0],
-      "4": [2, 0],
-      "5": [2, 2],
-      "6": [0, 2],
-      "7": [0, 0],
-      "8": [0, 0]
+      "0": [
+        4,
+        6
+      ],
+      "1": [
+        2,
+        4
+      ],
+      "2": [
+        4,
+        0
+      ],
+      "3": [
+        5,
+        0
+      ],
+      "4": [
+        5,
+        0
+      ],
+      "5": [
+        5,
+        5
+      ],
+      "6": [
+        0,
+        5
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -21773,51 +22440,78 @@
       }
     },
     "s": {
-      "0": 2,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 0,
-      "5": 2,
+      "0": 5,
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 4,
+      "5": 8,
       "6": 0,
-      "7": 2,
-      "8": 2,
-      "9": 1,
-      "10": 2,
-      "11": 2,
-      "12": 2,
-      "13": 2,
-      "14": 2,
+      "7": 8,
+      "8": 5,
+      "9": 3,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
       "15": 0,
-      "16": 2,
-      "17": 2,
-      "18": 2,
+      "16": 5,
+      "17": 5,
+      "18": 5,
       "19": 0,
       "20": 0,
       "21": 0,
       "22": 0,
       "23": 0,
-      "24": 2,
-      "25": 2
+      "24": 5,
+      "25": 5
     },
     "f": {
-      "0": 2,
-      "1": 1,
-      "2": 2,
+      "0": 12,
+      "1": 3,
+      "2": 5,
       "3": 0,
-      "4": 2,
-      "5": 2
+      "4": 5,
+      "5": 5
     },
     "b": {
-      "0": [0, 2],
-      "1": [0, 2],
-      "2": [2, 0],
-      "3": [2, 0],
-      "4": [2, 0],
-      "5": [2, 2],
-      "6": [0, 2],
-      "7": [0, 0],
-      "8": [0, 0]
+      "0": [
+        4,
+        8
+      ],
+      "1": [
+        0,
+        8
+      ],
+      "2": [
+        8,
+        0
+      ],
+      "3": [
+        5,
+        0
+      ],
+      "4": [
+        5,
+        0
+      ],
+      "5": [
+        5,
+        5
+      ],
+      "6": [
+        0,
+        5
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
     },
     "inputSourceMap": {
       "version": 3,
@@ -21835,7 +22529,9 @@
         "$RefreshReg$"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/PublicRoute.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/PublicRoute.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/shared/ui/PublicRoute.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -21858,7 +22554,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 2
+      "0": 5
     },
     "f": {},
     "b": {},
@@ -21891,7 +22587,9 @@
         "index"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/router.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/router.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/app/router.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
@@ -21914,7 +22612,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 2
+      "0": 5
     },
     "f": {},
     "b": {},
@@ -21933,7 +22631,9 @@
         "render"
       ],
       "ignoreList": [],
-      "sources": ["/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/main.tsx"],
+      "sources": [
+        "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/main.tsx"
+      ],
       "file": "/Users/tinnie/Desktop/EFFLORENSE tina/efflorense/src/main.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
