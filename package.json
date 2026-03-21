@@ -16,8 +16,36 @@
     "test": "echo 'No tests specified' && exit 0",
     "server": "node server.cjs",
     "ct:run": "cypress run --component",
-  "coverage:report": "nyc report --reporter=text-summary --reporter=html"
-
+    "coverage:report": "nyc report --reporter=text-summary --reporter=html"
+  },
+  "nyc": {
+    "extends": "@istanbuljs/nyc-config-typescript",
+    "all": false,
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "include": [
+      "src/pages/about/**/*.{ts,tsx}",
+      "src/pages/home/**/*.{ts,tsx}",
+      "src/pages/home-after/**/*.{ts,tsx}",
+      "src/pages/auth/login/**/*.{ts,tsx}",
+      "src/pages/auth/register/**/*.{ts,tsx}",
+      "src/pages/not-found/**/*.{ts,tsx}",
+      "src/shared/auth/**/*.{ts,tsx}",
+      "src/widgets/Footer/**/*.{ts,tsx}",
+      "src/widgets/MenuFab/**/*.{ts,tsx}"
+    ],
+    "exclude": [
+      "cypress/**/*",
+      "**/*.cy.ts",
+      "**/*.cy.tsx",
+      "vite.config.ts"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ]
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
