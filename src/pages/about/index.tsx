@@ -4,7 +4,7 @@ import styles from './AboutUs.module.css'
 export default function HomePage() {
   return (
     <section className={styles.page}>
-        <Link to="/" className={styles.badge}>
+      <Link to="/" className={styles.badge}>
         E
       </Link>
       <section className={styles.about}>

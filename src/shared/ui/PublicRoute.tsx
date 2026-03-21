@@ -1,13 +1,20 @@
 import { Navigate, Outlet } from 'react-router-dom'
+import { useAuth } from '../auth/useAuth'
 
-type PublicRouteProps = {
-  isAllowed: boolean
-  redirectTo?: string
+type Props = {
+  children?: React.ReactNode
 }
 
-export function PublicRoute({ isAllowed, redirectTo = '/home-after' }: PublicRouteProps) {
-  if (!isAllowed) {
-    return <Navigate to={redirectTo} replace />
+export function PublicRoute({ children }: Props) {
+  const { isAuth, loading } = useAuth()
+
+  if (loading) {
+    return null
   }
-  return <Outlet />
+
+  if (isAuth) {
+    return <Navigate to="/home-after" replace />
+  }
+
+  return children ?? <Outlet />
 }

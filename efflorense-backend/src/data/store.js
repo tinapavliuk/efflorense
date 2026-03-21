@@ -1,0 +1,116 @@
+const users = [
+    {
+      id: 2,
+      email: 'e@gmail.com',
+      passwordHash: '$2a$10$r.JMjD3fJnVsQaMXsgl9gudt4f.ymnvBmMUiYYoJnFzaKxhCO5yMu',
+      name: 'tina'
+    },
+    {
+      id: 3,
+      email: 'example@gamil.com',
+      passwordHash: '$2a$10$sqTGT9BAfQSFHzpC32GeFuJRswLrX8H35W91ejn/zYtHbQuwqsLc.',
+      name: 'niki',
+      phone: '+38097654782'
+    },
+    {
+      id: 4,
+      email: 'sobaka@sobaka.com',
+      passwordHash: '$2a$10$9AyhuofHf0L1gJHZPxc6DOgwCTl36Iw.XZ1oEJEGYhNy6KrdKMeG2',
+      name: 'sharik',
+      phone: '+380777777777'
+    }
+  ]
+  
+  const flowers = [
+    {
+      id: 1,
+      name: 'marquise',
+      type: 'rose',
+      price: 1.5,
+      length: 50,
+      colorName: 'Passionate red',
+      image: '/catalog-rose-red.png',
+      meaning: 'A red rose speaks of deep love and timeless passion.',
+      perfectFor: 'someone who makes your heart bloom.'
+    },
+    {
+      id: 2,
+      name: 'pallite',
+      price: 2,
+      length: 55,
+      type: 'tulip',
+      colorName: 'Lovely pink',
+      meaning: 'Grace, affection and care.',
+      perfectFor: 'a gentle compliment.',
+      image: '/catalog-tulip-pink.png'
+    },
+    {
+      id: 3,
+      name: 'opalite',
+      price: 1.8,
+      length: 60,
+      type: 'rose',
+      colorName: 'Graceful white',
+      meaning: 'A white rose symbolizes innocence and new beginnings.',
+      perfectFor: 'a sincere compliment or celebration.',
+      image: '/catalog-rose-white.png'
+    }
+  ]
+  
+  const cartItems = [
+    {
+      id: 1,
+      flowerId: 1,
+      name: 'marquise',
+      image: '/catalog-rose-red.png',
+      price: 1.5,
+      quantity: 6,
+      kind: 'flower',
+      userId: 3
+    },
+    {
+      id: 2,
+      flowerId: 3,
+      name: 'opalite',
+      image: '/catalog-rose-white.png',
+      price: 1.8,
+      quantity: 2,
+      kind: 'flower',
+      userId: 3
+    },
+    {
+      id: 3,
+      name: 'basket packaging',
+      price: 2,
+      quantity: 1,
+      kind: 'packaging',
+      image: '/cart-basket.png',
+      userId: 3
+    },
+    {
+      id: 4,
+      flowerId: 2,
+      name: 'pallite',
+      image: '/catalog-tulip-pink.png',
+      price: 2,
+      quantity: 4,
+      kind: 'flower',
+      userId: 4
+    }
+  ]
+  
+  let nextUserId = 5
+  let nextCartItemId = 5
+  
+  const nextIds = {
+    getUserId: () => nextUserId++,
+    getCartItemId: () => nextCartItemId++
+  }
+  
+  module.exports = {
+    users,
+    flowers,
+    cartItems,
+    nextIds
+  }
+  

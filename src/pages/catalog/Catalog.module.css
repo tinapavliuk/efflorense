@@ -2,7 +2,6 @@
   position: relative;
   min-height: 100vh;
   background: #fde4d1;
-  overflow: clip;
 }
 
 .badge {
@@ -256,7 +255,7 @@
   background: #fff;
   border-left: 1px solid #e8e8e8;
   box-shadow: -12px 0 24px rgba(0, 0, 0, 0.15);
-  z-index: 31;
+  z-index: 40;
   animation: sheetIn 0.18s ease-out;
 }
 
@@ -349,6 +348,32 @@
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.toCart {
+  margin-left: auto;
+  background: #906850;
+  color: #fde4d1;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.secondaryButton {
+  display: inline-flex;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: rgba(144, 104, 80, 0.1);
+  color: #684b39;
+  text-decoration: none;
+  font-family: 'Kyiv*Type Sans', system-ui, sans-serif;
 }
 
 @media (max-width: 1280px) {

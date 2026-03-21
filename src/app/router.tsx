@@ -13,35 +13,52 @@ import RegisterPage from '../pages/auth/register'
 import BlankLayout from './BlankLayout'
 import NotFoundPage from '../pages/not-found'
 import AboutUsPage from '../pages/about'
+import ProfilePage from '../pages/profile'
 import { ProtectedRoute } from '../shared/ui/ProtectedRoute'
 import { PublicRoute } from '../shared/ui/PublicRoute'
 
-const isAuth = false
-
 export const router = createBrowserRouter([
+  {
+    path: '/',
+    element: (
+      <PublicRoute>
+        <HomePage />
+      </PublicRoute>
+    ),
+  },
 
   {
+    path: '/auth',
     element: <BlankLayout />,
     children: [
+      { index: true, element: <Navigate to="/auth/login" replace /> },
       {
-        element: <PublicRoute isAllowed={!isAuth} />,
-        children: [
-          { index: true, element: <HomePage /> },
-          { path: 'auth', element: <Navigate to="/auth/login" replace /> },
-          { path: 'auth/login', element: <LoginPage /> },
-          { path: 'auth/register', element: <RegisterPage /> },
-        ],
+        path: 'login',
+        element: (
+          <PublicRoute>
+            <LoginPage />
+          </PublicRoute>
+        ),
+      },
+      {
+        path: 'register',
+        element: (
+          <PublicRoute>
+            <RegisterPage />
+          </PublicRoute>
+        ),
       },
     ],
   },
 
   {
+    path: '/',
     element: <App />,
     children: [
       {
         path: 'home-after',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <HomeAfterPage />
           </ProtectedRoute>
         ),
@@ -49,7 +66,7 @@ export const router = createBrowserRouter([
       {
         path: 'catalog',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <CatalogPage />
           </ProtectedRoute>
         ),
@@ -57,7 +74,7 @@ export const router = createBrowserRouter([
       {
         path: 'mood',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <MoodPage />
           </ProtectedRoute>
         ),
@@ -65,7 +82,7 @@ export const router = createBrowserRouter([
       {
         path: 'garden',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <GardenPage />
           </ProtectedRoute>
         ),
@@ -73,7 +90,7 @@ export const router = createBrowserRouter([
       {
         path: 'cart',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <CartPage />
           </ProtectedRoute>
         ),
@@ -81,7 +98,7 @@ export const router = createBrowserRouter([
       {
         path: 'menu',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <MenuPage />
           </ProtectedRoute>
         ),
@@ -89,12 +106,19 @@ export const router = createBrowserRouter([
       {
         path: 'about',
         element: (
-          <ProtectedRoute isAllowed={isAuth}>
+          <ProtectedRoute>
             <AboutUsPage />
           </ProtectedRoute>
         ),
       },
-      
+      {
+        path: 'profile',
+        element: (
+          <ProtectedRoute>
+            <ProfilePage />
+          </ProtectedRoute>
+        ),
+      },
     ],
   },
 
